@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Counting Crystals Homework 4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="./assets/css/reset.css"> 
+   
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="./assets/css/style.css"> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container myContainer">
+
+    		<div class="row">
+    				<div class="col-md-3 col-sm-3 col-xs-3">
+    				</div>
+		      				
+	    			<div class="col-md-9 col-sm-9 col-xs-9 page-header myPageHeader">
+	    				<img  src="/Users/whitmanwirthlin/Downloads/Unit-4/assets/images/crystal_logo.png" alt=" crystal game logo">
+	    				<h1>Crystal Collector Game!</h1>
+	    			</div>
+	    	</div>
+	    		
+	  		<div class="row">
+
+    			<div class="col-md-3 col-sm-3 col-xs-3">
+    			</div>
+    			<div  class="col-md-9 col-sm-9 col-xs-9 jumbotron" id="myJumbotron">
+    				<div id="directions">
+		    			<p>
+	    					YOUR GOAL IS TO HIT THE NUMBER BY USING THE POWER OF THE CRYSTAL
+						</p>
+						<p>
+							EACH CRYSTAL CONTAINS A CERTAIN VALUE
+						</p>
+						<p>
+							FIND THE CRYSTALS VALUE BY GUESSING
+						</p>
+						<p>
+							THE GAME WILL RESTART IF YOU GUESS WRONG!
+						</p>
+					</div>
+    			</div>
+    			
+    		</div>
+    		<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-3">
+	    		</div>
+	    		<div class="col-md-6 col-sm-6 col-xs-6 panel panel-default panel-body" id="gameRandomBox">
+	    				<span id="num2Guess"> </span>
+	    		</div>
+	    		<div class="col-md-3 col-sm-3 col-xs-3">
+	    			<div class="row">
+	    				<div class="col-md-12 col-sm-12 col-xs-6 panel panel-default panel-body statsBox" id="winsBox">
+	    					<span class="statsNum" id="numWins"> </span>
+	    				</div>
+	    			</div>
+	    			<div class="row"> 
+	    				<div class="col-md-12 col-sm-12 col-xs-6 panel panel-default panel-body statsBox">
+	    					<span class="statsNum" id="numLosses"> </span>
+	    				</div>
+	    			</div>
+	    		</div>
+			</div> 
+			
+	    	<div class="row">
+	    		<div class="col-md-3 col-sm-3 col-xs-3">
+	    		</div>
+	    		<div class="col-md-6 col-sm-6 cos-xs-6">
+	    			<div class="row"> 
+						<div class="col-md-3 col-xs-3 col-xm-3 leftJustify">
+		        			<img class="img-responsive thumbnail myThumbnail gemstone" id="amethyst" value="amethyst" src="/Users/whitmanwirthlin/Downloads/Unit-4/assets/images/amethyst_100px.jpg" alt="amethyst">
+	  					</div>
+	  					<div class="col-md-3 col-xs-3 col-xm-3">
+		        				<img class="img-responsive thumbnail myThumbnail gemstone" id="emerald" value="emerald" src="/Users/whitmanwirthlin/Downloads/Unit-4/assets/images/ruby_100px.jpg" alt="ruby">
+	  					</div>
+		 				<div class="col-md-3 col-xs-3 col-xm-3">
+		        				<img class="img-responsive thumbnail myThumbnail gemstone" id="ruby" value="ruby" src="/Users/whitmanwirthlin/Downloads/Unit-4/assets/images/sapphire_100px.jpg" alt="sapphire">
+		  				</div>
+		  				<div class="col-md-3 col-xs-3 col-xm-3">
+		        				<img class="img-responsive thumbnail myThumbnail gemstone" id="sapphire" value="sapphire" src="/Users/whitmanwirthlin/Downloads/Unit-4/assets/images/emerald_100px.png" alt="emerald">
+		  				</div>
+		  			</div>
+	    		</div>
+			</div> 
+
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-3">
+	    		</div>
+	    		<div class="col-md-6 col-sm-6 cos-xs-6 leftJustify">
+	    			<div class="panel panel-heading myPanel">
+    						<span class="panel-title statsNum">Your Total Score Is: </span>
+  					</div>
+  					<div class="panel-body myPanel">
+    						<span class="statsNum" id="userScore"> </span>
+  					</div>
+				</div>
+	    		
+
+			</div> 
+    		
+		</div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="/Users/whitmanwirthlin/Downloads/Unit-4/assets/javascript/game.js"></script>
+    </body>
+</html>
